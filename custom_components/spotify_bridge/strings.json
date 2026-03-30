@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Setup Spotify Credentials",
+        "description": "To use this integration, you must create an app on the [Spotify Developer Dashboard]({link}).\n\n**Redirect URI:** `https://my.home-assistant.io/redirect/oauth`",
+        "data": {
+          "client_id": "Client ID",
+          "client_secret": "Client Secret"
+        }
+      }
+    }
+  }
+}
