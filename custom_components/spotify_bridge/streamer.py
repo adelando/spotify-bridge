@@ -1,4 +1,5 @@
 import logging
+import asyncio
 from aiohttp import web
 from homeassistant.core import HomeAssistant
 
@@ -33,7 +34,7 @@ class SpotifyStreamer:
             while True:
                 # Placeholder for the actual buffer data
                 # await response.write(chunk)
-                pass
+                await asyncio.sleep(1)
         except Exception:
             _LOGGER.debug("Speaker disconnected from stream")
         return response
