@@ -1,0 +1,10 @@
+sync_playback:
+  description: "Syncs the Spotify stream to chosen speakers."
+  fields:
+    targets:
+      description: "List of media_player entities to receive the stream."
+      example: ["media_player.kitchen", "media_player.living_room"]
+      selector:
+        entity:
+          domain: media_player
+          multiple: true

@@ -1,0 +1,13 @@
+# Python bytecode
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Home Assistant local storage & logs
+*.log
+.storage/
+.DS_Store
+
+# Credentials
+secrets.yaml
+core.config_entries

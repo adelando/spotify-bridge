@@ -1,1 +1,15 @@
-
+{
+  "name": "Spotify Universal Bridge",
+  "content_type": "integration",
+  "domains": ["spotify_bridge"],
+  "homeassistant": "2024.1.0",
+  "render_readme": true,
+  "iot_class": "local_push",
+  "keywords": [
+    "spotify",
+    "cast",
+    "airplay",
+    "chromecast",
+    "multiroom"
+  ]
+}
